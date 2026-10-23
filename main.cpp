@@ -5,7 +5,7 @@ const int DHT_PIN = 4;
 const int DHT_TYPE = DHT22;
 DHT dht(DHT_PIN, DHT_TYPE);
 
-const int LDR_PIN = 34;  // Pin ADC untuk LDR (ESP32)
+const int LDR_PIN = 0;  // Pin ADC untuk LDR (ESP32)
 
 void setup() {
   Serial.begin(115200);
